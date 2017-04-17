@@ -20,6 +20,7 @@ namespace winform_test
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello World");
+            label1.Text = "Hello World";
         }
     }
 }
